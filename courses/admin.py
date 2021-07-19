@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import Course
 
-# Register your models here.
+'''
+from .models import NewTableName
+
+admin.site.register(NewTableName)
+'''
+admin.site.register(Course)
